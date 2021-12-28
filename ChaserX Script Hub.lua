@@ -3208,7 +3208,7 @@ wait(5.01)
 intro:Destroy()
 end)
 Section:NewButton("Nullware Hub", "Use this for animations and hat scripts!", function()
-	local LocalPlayer = game:GetService("Players").LocalPlayer
+	--[[local LocalPlayer = game:GetService("Players").LocalPlayer
 	local Heartbeat = game:GetService("RunService").Heartbeat
 	
 	Heartbeat:Connect(function()
@@ -3216,6 +3216,7 @@ Section:NewButton("Nullware Hub", "Use this for animations and hat scripts!", fu
 		sethiddenproperty(LocalPlayer, "SimulationRadius", math.huge)
 	end)
 	loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
+]]
 end)
 local PlayerSection = PlayerSettings:NewSection("Player Properties")
 Section:NewSlider("Speed", "Sets your player's speed.", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
