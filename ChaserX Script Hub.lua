@@ -3224,4 +3224,3 @@ end)
 Section:NewSlider("Jump Power", "Sets your player's jump power.", 500, 0, function(s))
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
-local 
