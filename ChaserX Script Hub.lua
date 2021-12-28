@@ -24,3 +24,10 @@ end)
 PlayerSettings:NewToggle("Sit", "If you are sitting or not.", function(a)
 	game.Players.LocalPlayer.Character.Humanoid.Sit = a
 end)
+if game.PlaceId == 6447798030 then
+	local FunkyFridayTab = Window:NewTab("Funky Friday")
+	local FunkyFridaySection = FunkyFridayTab:NewSection("Scripts")
+	FunkyFridaySection:NewButton("Funky Friday Autoplayer", "Good autoplayer for Funky Friday.", function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+	end)
+end
