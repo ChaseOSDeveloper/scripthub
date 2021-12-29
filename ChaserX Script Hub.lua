@@ -39,3 +39,12 @@ if game.PlaceId == 6447798030 then
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
 	end)
 end
+if game.PlaceId == 7772810845 then
+	local GameTab = Window:NewTab("The Presentation Experience")
+	local GameSection = GameTab:NewSection("Scripts")
+	GameSection:NewButton("Stand Up", "Makes you walk forever.", function()
+		game.Players.LocalPlayer.Character.Sit:Destroy()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 40
+	end)
+end
