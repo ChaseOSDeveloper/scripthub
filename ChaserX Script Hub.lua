@@ -40,7 +40,7 @@ if game.PlaceId == 6447798030 then
 	end)
 end
 if game.PlaceId == 7772810845 then
-	local GameTab = Window:NewTab("The Presentation Experience")
+	local GameTab = Window:NewTab("Presentation Experience")
 	local GameSection = GameTab:NewSection("Scripts")
 	GameSection:NewButton("Stand Up", "Makes you walk forever.", function()
 		game.Players.LocalPlayer.Character.Sit:Destroy()
