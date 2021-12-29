@@ -26,7 +26,7 @@ PlayerSettings:NewToggle("Sit", "If you are sitting or not.", function(a)
 	game.Players.LocalPlayer.Character.Humanoid.Sit = a
 end)
 local ExecuterControls = ExecuterTab:NewSection("Loadstring Executer")
-ExecuterControls:NewTextBox("Loadstring", "One line only.", function(txt)
+ExecuterControls:NewTextBox("Loadstring", "One line only. Make sure you press enter before you press execute!", function(txt)
 	getgenv().Script = txt
 end)
 ExecuterControls:NewButton("Execute", "Runs the script.", function()
