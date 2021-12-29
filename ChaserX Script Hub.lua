@@ -18,7 +18,7 @@ ReanimationScriptSection:NewButton("Drone Animation (Not FE)", "Something with a
 	loadstring(game:HttpGet("https://pastebin.com/raw/k5eWfDYa", true))()
 end)
 local PlayerTab = Window:NewTab("Player")
-local PlayerSettings = PlayerTab:NewSection("PlayerSettings")
+local PlayerSettings = PlayerTab:NewSection("Player Settings")
 PlayerSettings:NewSlider("Speed", "Your walk speed.", 64, 0, function(a)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
 end)
