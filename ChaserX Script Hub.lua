@@ -51,3 +51,13 @@ if game.PlaceId == 7772810845 then
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 40
 	end)
 end
+if game.PlaceId == 6284583030 then
+	local GameTab = Window:NewTab("Pet Simulator X")
+	local GameSection = GameTab:NewSection("Scripts")
+	GameSection:NewButton("Petsi X", "An OP autofarm for Pet Simulator X.", function()
+		loadstring(game:GetObjects("rbxassetid://8194485654")[1].Source)("Petsi-X")
+	end)
+	GameSection:NewButton("Mini GUI", "OP script, all in one.", function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
+	end)
+end
