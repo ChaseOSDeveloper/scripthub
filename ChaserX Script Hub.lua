@@ -61,3 +61,10 @@ if game.PlaceId == 6284583030 then
 		loadstring(game:HttpGet('https://pastebin.com/raw/fttSzNs8'))()
 	end)
 end
+if game.PlaceId == 5780309044 then
+	local GameTab = Window:NewTab("Stands Awakening")
+	local GameSection = GameTab:NewSection("Scripts")
+	GameSection:NewButton("Stands Awakening Killer", "An OP script for Stands Awakening.", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/tonumber/roblox-scripts/main/abdm/abdmfuckerv3.lua'))()
+	end)
+end
