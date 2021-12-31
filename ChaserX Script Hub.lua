@@ -3,6 +3,9 @@ local Window = Library.CreateLib("well543211's Script Hub", "DarkTheme")
 if game.Players.LocalPlayer.UserId == 904017698 then
 	local GameTab = Window:NewTab("Blacklist")
 	local GameSection = GameTab:NewSection("You have been blacklisted!")
+	GameSection:NewButton("Blacklisted", "Broke the rules.", function()
+		print("no.")
+	end)
 else
 	local GeneralScripts = Window:NewTab("General Scripts")
 	local Scripts = GeneralScripts:NewSection("Scripts")
