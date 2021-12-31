@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("well543211's Script Hub", "DarkTheme")
 if game.Players.LocalPlayer.UserId == 904017698 then
-	local GameTab = Window:NewTab(" ")
-	local GameSection = GameTab:NewSection("You have been blacklisted")
+	local GameTab = Window:NewTab("Blacklist")
+	local GameSection = GameTab:NewSection("You have been blacklisted!")
 else
 	local GeneralScripts = Window:NewTab("General Scripts")
 	local Scripts = GeneralScripts:NewSection("Scripts")
