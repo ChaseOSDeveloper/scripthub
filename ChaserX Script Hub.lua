@@ -7,7 +7,7 @@ else
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 	local Window = Library.CreateLib("well543211's Script Hub", "DarkTheme")
 	local GeneralScripts = Window:NewTab("General Scripts")
-	local Scripts = GeneralScripts:NewSection("Scripts")
+	local Scripts = GeneralsScripts:NewSection("Scripts")
 	local ReanimationScripts = Window:NewTab("Animation Scripts")
 	local ExecuterTab = Window:NewTab("Executer")
 	local ReanimationScriptSection = ReanimationScripts:NewSection("Scripts")
@@ -72,6 +72,13 @@ else
 		local GameSection = GameTab:NewSection("Scripts")
 		GameSection:NewButton("Stands Awakening Killer", "An OP script for Stands Awakening.", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/tonumber/roblox-scripts/main/abdm/abdmfuckerv3.lua'))()
+		end)
+	end
+	if game.PlaceId == 6872274481 then
+		local GameTab = Window:NewTab("Bedwars")
+		local GameSection = GameTab:NewSection("Scripts")
+		GameSection:NewButton("Vape V4", "An OP script for Bedwars.", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'))()
 		end)
 	end
 end
