@@ -7,7 +7,7 @@ else
 	local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 	local Window = Library.CreateLib("well543211's Script Hub", "DarkTheme")
 	local GeneralScripts = Window:NewTab("General Scripts")
-	local Scripts = GeneralsScripts:NewSection("Scripts")
+	local Scripts = GeneralScripts:NewSection("Scripts")
 	local ReanimationScripts = Window:NewTab("Animation Scripts")
 	local ExecuterTab = Window:NewTab("Executer")
 	local ReanimationScriptSection = ReanimationScripts:NewSection("Scripts")
