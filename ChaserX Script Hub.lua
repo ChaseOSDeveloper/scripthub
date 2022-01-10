@@ -23,7 +23,7 @@ else
 	ReanimationScriptSection:NewButton("Drone Animation (Not FE)", "Something with a drone.", function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/k5eWfDYa", true))()
 	end)
-	ReanimationScriptsSection:NewButton("Energize GUI", "Great trolling animation pack!", function()
+	ReanimationScriptSection:NewButton("Energize GUI", "Great trolling animation pack!", function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/0MLPL32'))
 	end)
 	local PlayerTab = Window:NewTab("Player")
