@@ -20,6 +20,7 @@ else
 	Scripts:NewButton("Infinite Yield", "Admin that is OP.", function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
+	Scripts:NewButton("Load Roblox Hacked Client 11", "Biggest script ever! Its almost an operating system!")
 	ReanimationScriptSection:NewButton("Drone Animation (Not FE)", "Something with a drone.", function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/k5eWfDYa", true))()
 	end)
